@@ -1,5 +1,5 @@
 {
-  "name": "custom_kibana_theme",
+  "name": "saltworks_kibana_theme",
   "version": "0.0.0",
   "private": true,
   "scripts": {

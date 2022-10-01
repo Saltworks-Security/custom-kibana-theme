@@ -1,12 +1,12 @@
 {
-  "id": "customKibanaTheme",
+  "id": "saltworksKibanaTheme",
   "version": "1.0.0",
   "kibanaVersion": "kibana",
   "owner": {
     "name": "lizozom",
     "githubTeam": ""
   },
-  "description": "Customize Kibana Theme",
+  "description": "Saltworks Kibana Theme",
   "server": false,
   "ui": true,
   "enabledOnAnonymousPages": true,
