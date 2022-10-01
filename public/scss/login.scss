@@ -39,7 +39,7 @@
         
                 &:after {
                     @include showNewContent;
-                    content: 'Welcome to Saltworks';
+                    content: 'Welcome to SaltMiner';
                 }
             }
         
@@ -54,7 +54,6 @@
                 @include hideOldContent;
                 &:after {
                     @include showNewContent;
-                    color: darkblue !important; 
                     content: "You have logged out of SaltMiner."
         
                 }
