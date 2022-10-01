@@ -2,9 +2,11 @@
  * Change the main Kibana logo
  */
 
-#globalHeaderBars {
-    .euiHeaderLogo {
-        background-color: #cbcbcb;
+
+ #globalHeaderBars {
+    .euiHeader.header__firstBar {
+        background-color: #cbcbcb !important;
+        border-bottom-color: #cbcbcb !important;
     }
     /*
      * Change the main logo
@@ -13,15 +15,19 @@
         svg {
             display: none !important;
         }
+        
+        &:focus {
+            background-color: inherit;
+        }
 
-        &:after {
+        &:before {
             content: '';
             background-position: center;
             background-image: url('../assets/saltworks-logo.png');
             background-repeat: no-repeat;
             background-size: contain;
-            width: 150px;
-            height: 40px;
+            width: 35px;
+            height: 35px;
         }
     }
 

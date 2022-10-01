@@ -1,5 +1,7 @@
 import { CoreSetup, CoreStart, Plugin } from '../../../src/core/public';
 import { CUSTOM_NAME } from './consts';
+// @ts-ignore
+import icon from './assets/favicon.ico';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface CustomKibanaThemePluginContract {}
@@ -18,7 +20,7 @@ export class CustomKibanaThemePlugin
 
     // Update the favicon programatically
     this.changeFavicon({
-      emoji: '🐋',
+      href: icon,
     });
     this.setupTabNameListener();
   }
