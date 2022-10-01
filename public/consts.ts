@@ -1,1 +1,1 @@
-export const CUSTOM_NAME = 'Saltworks';
+export const CUSTOM_NAME = 'SaltMiner';
